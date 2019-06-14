@@ -1,0 +1,8 @@
+f = open("kranthi.txt","w")
+f.write("hello world how are you")
+f = open("kranthi.txt","r")
+print(f.read())
+f1 = open("bhagath.txt","w")
+f1.write("hi how are you")
+f1=open("bhagath.txt","r")
+print(f1.read())
